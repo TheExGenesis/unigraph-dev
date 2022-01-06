@@ -65,12 +65,7 @@
     "bezier-js": "4.0.3"
   },
   "version": "0.0.1",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "*.{ts,tsx}": "eslint --cache --fix"
+    "*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   }
 }
